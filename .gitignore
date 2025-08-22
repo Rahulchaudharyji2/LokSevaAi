@@ -16,3 +16,29 @@ build/
 # OS-related files
 .DS_Store
 Thumbs.db
+# secrets
+.env
+.env.*
+*.key
+*.pem
+
+# node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# whatsapp-web.js local auth/cache (NEVER commit)
+.wwebjs_auth/
+src/.wwebjs_auth/
+.wwebjs_cache/
+.wwebjs_cache/
+.wwauth/
+session/
+sessions/
+tmp/
+cache/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
